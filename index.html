@@ -1,92 +1,197 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Currículum Vitae</title>
-    <link rel="stylesheet" href="./asset/css/style.css">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CV: Alfonso Palacios - desafio latam_</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="./assets/css/style.css" rel="stylesheet">
+    </head>
+
 <body>
-    <header>
-        <img src="./asset/images/foto1.jpg" alt="Mi fotografía profesional" class="profile-img">
-        <h1>Alfonso Palacios Vergara</h1>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/alfpala/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/alfpala" target="_blank">GitHub</a>
-            <a href="portafolio.html">Ver mi Portafolio</a>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="./assets/images/foto1.jpg" alt="Foot Principal">
+                <h1 class="font-weight-bold">Alfonso Palacios</h1>
+                <p class="mb-4">
+                    Desarrollador web con deseos de adquirir experiencia en tecnologías frontend y backend.
+                </p>
+                <div class="d-flex justify-content-center mb-5">
+                    <a class="btn btn-outline-primary mr-2" href="https://github.com/alfpala" target="_blank"><i class="fab fa-brands fa-github"></i></i></a>
+                    <a class="btn btn-outline-primary mr-2" href="https://www.linkedin.com/in/alfpala" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="" class="btn btn-lg btn-block btn-primary mt-auto">alfpala@gmail.com</a>
+            </div>
+            <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+            </div>
         </div>
-    </header>
+        <div class="content">
+            <!-- Navbar Start -->
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                    <a href="" class="navbar-brand d-block d-lg-none">Navigation</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="./" class="nav-item nav-link">Inicio</a>
+                            <a href="#personal" class="nav-item nav-link">Información Personal</a>
+                            <a href="#portafolio" class="nav-item nav-link">Portafolio</a>
+                            <a href="#experiencia" class="nav-item nav-link">Experiencia</a>
+                             <a href="#educacion" class="nav-item nav-link">Educación</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Navbar End -->
 
-    <section>
-        <h2>Información Personal</h2>
-        <p>Desarrollador web con deseos de adquirir experiencia en tecnologías frontend y backend. Y especializarse en crear soluciones web modernas, responsivas y accesibles. Apasionado por el aprendizaje continuo y las nuevas tecnologías.</p>
-    </section>
+            <!-- Page Header Start -->
+            <div class="container py-2 px-2 bg-primary">
+                <div class="row py-2 px-4">
+                    <div class="col-sm-6 text-center text-md-left">
+                        <h1 class="mb-3 mb-md-0 text-white text-uppercase font-weight-bold">CV Alfonso Palacios</h1>
+                    </div>
+                    <div class="col-sm-6 text-center text-md-right">
+                        <div class="d-inline-flex pt-2">
+                            <h4 class="m-0 text-white"><a class="text-white" href="">HTML</a></h4>
+                            <h4 class="m-0 text-white px-2">/</h4>
+                            <h4 class="m-0 text-white">desafio latam_</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
 
-    <section>
-        <h2>Experiencia Laboral</h2>
-        <ul>
-            <li>
-                <h3>Aprediz en el Desarrollado Full Stack - Empresa ABC</h3>
-                <p>Enero 2024 - Presente</p>
-                <p>Desarrollo de aplicaciones web utilizando HTML, CSS, JavaScript, React y Node.js. Implementación de bases de datos SQL y NoSQL según las necesidades de cada proyecto.</p>
-            </li>
-            <li>
-                <h3>Desarrollador Frontend - Empresa XYZ</h3>
-                <p>Marzo 2023 - Diciembre 2024</p>
-                <p>Diseño y desarrollo de interfaces de usuario. Colaboración con equipos de diseño para implementar experiencias de usuario atractivas y funcionales.</p>
-            </li>
-        </ul>
-    </section>
+            <!-- Informacion Personal -->
+            <div class="container py-5 px-2 bg-white" id="personal">
+                <div class="row px-4">
+                    <div class="col-12">
+                        <h2 class="mb-3 font-weight-bold">Información Personal</h2>                       
 
-    <section>
-        <h2>Educación</h2>
-        <ul>
-            <li>
-                <h3>Ingeniería en Sistemas</h3>
-                <p>Universidad Incca de Colombia, 2024</p>
-            </li>
-            <li>
-                <h3>Bootcamp de Desarrollo Web Full Stack</h3>
-                <p>Desafio LATAM, En Curso</p>
-            </li>
-        </ul>
-    </section>
+                        <p>Desarrollador web con deseos de adquirir experiencia en tecnologías frontend y backend. Y especializarse en crear soluciones web modernas, responsivas y accesibles. Apasionado por el aprendizaje continuo y las nuevas tecnologías.</p>
+                     </div>
 
-    <section>
-        <h2>Habilidades Técnicas</h2>
-        <ul>
-            <li>Lenguajes de programación:
-                <ul>
-                    <li>JavaScript</li>
-                    <li>PHP</li>
-                </ul>
-            </li>
-            <li>Tecnologías frontend:
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>React <i>(En formación)</i></li>
-                </ul>
-            </li>
-            <li>Tecnologías backend:
-                <ul>
-                    <li>Node.js <i>(En formación)</i></li>
-                    <li>Express <i>(En formación)</i></li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+                      <!-- Portafolio -->
 
-    <section>
-        <h2>Idiomas</h2>
-        <ol>
-            <li>Español (nativo)</li>
-            <li>Inglés (básico)</li>
-        </ol>
-    </section>
+                      <div class="col-12" id="portafolio">
+                        <h2 class="mb-3 font-weight-bold">Portafolio</h2>                       
 
-    <footer>
-        <p>© 2025 Alfonso Palacios - <a href="mailto:alfpala@gmail.com">alfpala@gmail.com</a></p>
-    </footer>
+                         <div class="row">
+                            <div class="col-4 py-4">
+                             <div class="card">
+                                  <img src="./assets/images/portafolio1.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Proyecto 1 : <b><br>Curriculum Vitae</b></p>
+                                  </div>
+                                </div>
+                              </div>  
+
+                              <div class="col-4 py-4">
+                             <div class="card">
+                                  <img src="./assets/images/portafolio2.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Proyecto 2 : <b><br>Página Productos</b></p>
+                                  </div>
+                                </div>
+                              </div> 
+
+                           <div class="col-4 py-4">
+                             <div class="card">
+                                  <img src="./assets/images/portafolio3.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Proyecto 3 : <b><br>Página Iguanas</b></p>
+                                  </div>
+                                </div>
+                              </div> 
+
+                         </div>
+                           </div>
+
+
+
+                    <!-- Experiencia --> 
+                    <div class="col-12 py-4" id="experiencia">
+                        <h3 class="mb-4 font-weight-bold">Experiencia</h3>
+                        <div class="media mb-4">
+                            <img src="./assets/images/experiencia1.jpg" alt="Image" class="mr-3 mt-1 rounded-circle" style="width:60px;">
+                            <div class="media-body">
+                                <h4>Aprediz en el Desarrollado Full Stack - Empresa ABC</h4><br><small><i>Enero 2024 - Presente</i></small>
+                                <p>Desarrollo de aplicaciones web utilizando HTML, CSS, JavaScript, React y Node.js. Implementación de bases de datos SQL y NoSQL según las necesidades de cada proyecto.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="media mb-4">
+                            <img src="./assets/images/experiencia2.jpg" alt="Image" class="mr-3 mt-1 rounded-circle"
+                                style="width:60px;">
+                            <div class="media-body">
+                                <h4>Desarrollador Frontend - Empresa XYZ </h4><br><small><i>Marzo 2023 - Diciembre 2024</i></small>
+                                <p>Diseño y desarrollo de interfaces de usuario. Colaboración con equipos de diseño para implementar experiencias de usuario atractivas y funcionales.
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                 
+                 <!-- Educacion --> 
+                    <div class="col-12 py-4" id="educacion">
+                        <h3 class="mb-4 font-weight-bold">Educación</h3>
+                        <div class="media mb-4">
+                            <div class="media-body">
+                                <h5>Ingeniería en Sistemas</h5>
+                                <p>Universidad Incca de Colombia, 2024.</p>
+                            </div>
+                        </div>
+                        <div class="media mb-4">
+                            
+                            <div class="media-body">
+                                <h5>Bootcamp de Desarrollo Web Full Stack</h5>
+                                <p>Desafio LATAM, En Curso</p>                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+                
+            <!-- Footer  -->
+            <div class="container py-4 bg-secondary text-center">
+                <p class="m-0 text-white">
+                    &copy; <a class="text-white font-weight-bold" mailto="alfpala@gmail.com">CV: Alfonso Palacios</a>. desafio latam_  
+                </p>
+            </div>
+            <!-- Footer End -->
+        </div>
+    </div>
+        
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+   
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 </html>
