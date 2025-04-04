@@ -9,3 +9,8 @@
 <p align="left">
    <img src="https://alfpala.github.io/CV_desafio_latam/asset/images/forked_1.jpg">
    </p>
+<h3 align="center"> Forked Compañero 2</h3>
+[Revisar URL 2](https://github.com/Kiito-1/Dlatam-prueba/compare/main...alfpala:Dlatam-prueba:main)
+<p align="left">
+   <img src="https://alfpala.github.io/CV_desafio_latam/asset/images/forked_2.jpg">
+   </p>
